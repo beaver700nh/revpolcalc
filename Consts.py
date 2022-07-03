@@ -1,3 +1,5 @@
+import Util
+
 import math
 
 CONSTANTS = {
@@ -7,4 +9,4 @@ CONSTANTS = {
 }
 
 def get(name):
-  return CONSTANTS[name]
+  return Util.Result.VAL, CONSTANTS[name]
